@@ -33,17 +33,23 @@
 }
 
 .estudio,
-.contactos {
+.contactos,
+.portafolio {
     color: var(--color-texto);
     font-weight: 500;
     font-size: 14px;
 }
 
-.portafolio {
+.estudio:hover,
+.contactos:hover,
+.portafolio:hover,
+.estudio:focus,
+.contactos:focus,
+.porafolio:focus {
     color: var(--color-azul);
     font-weight: 500;
-    font-size: 14px;
 }
+
 
 .contact a {
     color: var(--color-gris);
