@@ -29,7 +29,6 @@
     font-size: 18px;
     font-style: bold;
     line-height: 2;
-    color: var(--color-texto);
 }
 
 .content a {
@@ -42,9 +41,7 @@
 .estudio,
 .contactos,
 .portafolio {
-    color: var(--color-texto);
     font-weight: 500;
-    font-size: 14px;
     font-style: medium;
     line-height: 1.2;
 }
@@ -64,7 +61,6 @@
 .contact a {
     color: var(--color-gris);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.2;
 }
 
@@ -73,20 +69,18 @@
 }
 
 .foot-info a {
-    color: var(--color-gris);
-    font-size: 14px;
+    color: var(--color-hueso);
     line-height: 1.7;
+    opacity: 60%;
 }
 
 .foot-info address {
     color: var(--color-hueso);
-    font-size: 14px;
     line-height: 1.7;
 }
 
 .options button {
     background-color: var(--color-botones);
-    color: var(--color-texto);
     font-size: 16px;
     font-style: medium;
     line-height: 1.6;
