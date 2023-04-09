@@ -13,22 +13,29 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+    color: var(--color-texto);
 }
 
 .webstudio {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
+    font-style: bold;
+    line-height: 1.2;
     color: var(--color-azul);
 }
 
 .content p {
     font-weight: 700;
     font-size: 18px;
+    font-style: bold;
+    line-height: 2;
     color: var(--color-texto);
 }
 
 .content a {
     font-size: 16px;
+    line-height: 1.9;
+    font-style: medium;
     color: var(--color-gris);
 }
 
@@ -38,6 +45,8 @@
     color: var(--color-texto);
     font-weight: 500;
     font-size: 14px;
+    font-style: medium;
+    line-height: 1.2;
 }
 
 .estudio:hover,
@@ -48,6 +57,7 @@
 .porafolio:focus {
     color: var(--color-azul);
     font-weight: 500;
+    line-height: 1.2;
 }
 
 
@@ -55,6 +65,7 @@
     color: var(--color-gris);
     font-weight: 500;
     font-size: 14px;
+    line-height: 1.2;
 }
 
 .foot-page {
@@ -64,16 +75,21 @@
 .foot-info a {
     color: var(--color-gris);
     font-size: 14px;
+    line-height: 1.7;
 }
 
 .foot-info address {
     color: var(--color-hueso);
     font-size: 14px;
+    line-height: 1.7;
 }
 
 .options button {
     background-color: var(--color-botones);
     color: var(--color-texto);
+    font-size: 16px;
+    font-style: medium;
+    line-height: 1.6;
     width: 128px;
     height: 38px;
     border: none;
@@ -83,6 +99,8 @@
 .options button:focus {
     background-color: var(--color-azul);
     color: var(--color-hueso);
+    font-style: medium;
+    line-height: 1.6;
     width: 128px;
     height: 38px;
     border: none;
