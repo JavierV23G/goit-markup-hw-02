@@ -1,6 +1,89 @@
-.buttons {
-    list-style-type: none;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+    --color-azul: #2196F3;
+    --color-texto: #212121;
+    --color-gris: #757575;
+    --color-hueso: #FFFFFF;
+    --color-botones: #F5F4FA;
+    --color-footpage: #2F303A;
 }
-.images {
-    list-style-type: none;
+
+* {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.webstudio {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    color: var(--color-azul);
+}
+
+.content p {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--color-texto);
+}
+
+.content a {
+    font-size: 16px;
+    color: var(--color-gris);
+}
+
+.estudio,
+.contactos {
+    color: var(--color-texto);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.portafolio {
+    color: var(--color-azul);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.contact a {
+    color: var(--color-gris);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.foot-page {
+    background-color: var(--color-footpage);
+}
+
+.foot-info a {
+    color: var(--color-gris);
+    font-size: 14px;
+}
+
+.foot-info address {
+    color: var(--color-hueso);
+    font-size: 14px;
+}
+
+.options button {
+    background-color: var(--color-botones);
+    color: var(--color-texto);
+    width: 128px;
+    height: 38px;
+    border: none;
+}
+
+.options button:hover,
+.options button:focus {
+    background-color: var(--color-azul);
+    color: var(--color-hueso);
+    width: 128px;
+    height: 38px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact a:hover,
+.foot-info a:hover {
+    color: var(--color-azul);
 }
